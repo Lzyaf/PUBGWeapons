@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+	<style>
+		body {
+		background-color:DarkGray;
+		}
+		
+		ol {
+		text-align:center;
+		list-style-type:none;
+		color:white;
+		}
+		
+		h1{
+		text-align:center;
+		color:orange;
+		}
+		
+		 div {
+ 		transition: background-color 0.5s ease;
+		background-color: gray;
+		}
+		
+		div:hover {
+ 		background-color: orange;
+ 		}
+		
+		p{ 
+		text-align: center;
+		color:white;
+		}
+		
+		#text1 {
+			margin: auto;
+			width: 75%;
+			height: 90%;
+			background-color: dimgray;
+			text-align: center;
+		}
+		
+	</style>
+
+	</head>
+
+	<body>
+	
+<head>
+<style>
+body {
+   font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #F0F8FF;
+   overflow-x: hidden;
+   transition: 0.5s;
+   padding-top: 60px;
+}
+
+.sidenav a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+   color: #F0F8FF;
+}
+
+.sidenav .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+   margin-left: 50px;
+}
+
+#main {
+   transition: margin-left .5s;
+   padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+ .sidenav {padding-top: 15px;}
+ .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<body background="PUBG bg2.jpg">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="index.html">Main Page</a>
+ <a href="PUBG Web Gun Page.html">Weapons</a>
+ <a href="Vehicle Page.html">Vehicles</a>
+ <a href="Test.html">The Map</a>
+ <a href="Biography.html">Resources</a>
+</div>
+
+<div id="main">
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+   document.getElementById("mySidenav").style.width = "250px";
+   document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+   document.getElementById("mySidenav").style.width = "0";
+   document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+	
+		<h1>
+		<font size="6.75">
+		THE VEHICLES IN PLAYERUNKNOWN'S BATTLEGROUND
+		</font>
+		</h1>
+		
+	<div id="text1">
+		<ol> <!-- ordered list tag (1. 2. 3. etc) -->
+		<font size="3">
+			<li> UAZ Open Top- The UAZ is a medium torque car that can hold up to 5 people. Has low acceleration but lots of armor. </li>
+			<img src="UAZ OPEN.jpg" lenght="200" width="200">
+			<li> UAZ Closed Top- The UAZ is a medium torque car that can hold up to 5 people. Has low acceleration but even more armor than a open top. </li>
+			<img src="UAZ Closed.jpg" lenght="200" width="200">
+			<li> Dacia- The Dacia is a low torque car that can hold up to 5 people as well. Has low acceleration and medium armor.</li>
+			<img src="Dacia.jpg" lenght="200" width="200">
+			<li> Motorcycle with Sidecar- The Motorcycle with sidecar is a medium torque vehicle that can hold up to 3 people. Had high acceleration but low armor. Land vehicle </li>
+			<img src="motor1.jpg" lenght="200" width="200">
+			<li> Motorcycle- The Motorcycle is a high torque vehicle than can hold 2 people. Has high acceleration and low armor. Land vehicle </li>
+			<img src="motor2.jpg" lenght="200" width="200">
+			<li> PG-117- The PBG-117 is a boat with medium acceleration and torque that can hold up to 5 people. It has high armor and is a water vehicle </li>
+			<img src="boat.jpg" lenght="200" width="200">
+			<li> Buggy- The Buggy is a medium torque car with high acceleration. It can hold up to 2 people and is a land vehicle. </li>		
+			<img src="Buggy.jpg" lenght="200" width="200">
+		</font>
+	</div>
+	
+	</body>
+
+</html> <!-- ending html tag -->
